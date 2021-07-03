@@ -5,7 +5,7 @@ app.post("/auth", function (req, res){
   /* This server is only available to nginx */
   const streamkey = req.body.key ;
   /* You can make database of users instead : ) */
-  if (streamkey === "supersecret") {
+  if (streamkey === "<Your_Password>") {
     res.status(200).send();
     return;
   }
