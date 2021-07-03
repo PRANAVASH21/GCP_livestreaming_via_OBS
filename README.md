@@ -61,6 +61,8 @@ nano Dockerfile
 
 # now 
 
+apt install npm
+
 npm init
 
 npm --save express nodemon
@@ -76,6 +78,8 @@ npm --save express nodemon
 nano server.js
 
 # Now come to the livestream directory and run the following-
+
+apt install docker-compose -y
 
 docker-compose build
 docker-compose up
