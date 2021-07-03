@@ -98,6 +98,6 @@ docker-compose up
 
 # and type the same rtmp://<instance_ip>/live/test
 
-# and BOOM, your streaming live.......
+# and BOOM, you're streaming live.......
 
 
